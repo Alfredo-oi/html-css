@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+    
+    background-color: aqua;
+    background-image: url(../../ex022/imagens/wallpaper001.jpg);
+}
+header {
+    width: 600PX;
+    height: 600px;
+    background-color: aliceblue;
+    margin: 10px;
+    background-position: left top;
+    
+}
+
+main {
+    
+    width: 600px;
+    height: 600px;
+    background-color: antiquewhite;
+    margin: 10px;
+    background-position: right top;
+}
+div#q1 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    
+
+}
+div#q2 {
+  
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    margin: auto;
+}
+footer {
+    width: 600px;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 255, 0.644), rgba(255, 0, 0, 0.5));
+    margin: 10px;
+}
