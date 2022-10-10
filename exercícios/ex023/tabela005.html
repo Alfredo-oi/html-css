@@ -23,11 +23,27 @@
             border: 1px solid black;
             padding: 8px;
         }
+        .cnome {
+            background-color: yellow;
+        }
+        col.csexo {
+            background-color: rgb(147, 147, 238);
+        }
+        col.cidade {
+            background-color: rgb(217, 147, 238);
+        }
     </style>
 </head>
 <body>
    <h1>Exercícios de Tabela</h1> 
    <table>
+
+    <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade" span="2">
+        <col class="cprof">
+    </colgroup>
     <caption>Cadastro</caption>
     <tr>
         <th scope="col">Nome</th>
